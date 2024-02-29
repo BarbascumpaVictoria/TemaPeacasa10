@@ -1,0 +1,61 @@
+/* ---------------------SARCINA_1------------------- */
+
+/* :root{
+    --gradient:linear-gradient(90deg, rgb(195, 224, 227), rgb(14, 58, 71));
+}
+.title{
+     font-style: italic; 
+    font-size: 6vh;
+     background-image:var(--gradient); 
+    color: transparent;
+    background-clip: text;
+}
+.image{
+    height:25vh;
+    background-size:cover; 
+    background-position: top;
+   background-repeat:repeat-x;
+    background-image: url(https://t4.ftcdn.net/jpg/03/29/02/09/240_F_329020982_rQWFQDnVjgGMgmCl0MjRcWrQ0wiIovnW.jpg);
+}
+.imagine{
+    height:50vh;
+    background-size:cover;   
+    background-image: url(https://vulping.ro/wp-content/uploads/2021/08/Cele-mai-dragute-mesaje-de-1-Martie.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    color:white;
+    font-style: italic; 
+    font-size: 3vh;
+    text-align: left;  
+} */
+
+/* ---------------------SARCINA_2------------------------ */
+.container{
+    display:grid;
+    gap:10px;
+    grid-template-areas: 
+    'header' 'header' 'header'
+    'sidebar' 'sidebar' 'sidebar'
+    'main' 'main''main'
+    'footer' 'footer' 'footer';
+}
+.header{
+    background-color: antiquewhite;
+    grid-area: header;
+    font-size: 3vh;
+    font-style: bold; 
+}
+.sidebar{
+    background-color:rgb(250, 245, 239);
+    grid-area: sidebar;
+}
+.main{
+    background-color: azure;
+    grid-area: main; 
+    font-size: 2vh;
+    text-align:justify;
+}
+.footer{
+    background-color: beige;
+    grid-area: footer;
+}
